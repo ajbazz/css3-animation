@@ -1,0 +1,1797 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: 20px 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #585754;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: solid rgba(0,0,0,1) 1px;
+    height: 20px;
+}
+
+.container {
+    display: block;
+    /*position: absolute;*/
+    width: 1366px;
+    height: 690px;
+    overflow: hidden;
+}
+.containerSeal {
+    display: block;
+    /* position: absolute; */
+    width: 1366px;
+    height: 690px;
+    overflow: hidden;
+    background-image: url(../img/SUSeal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button {
+    display: table;
+    position: relative;
+    padding: 10px 15px 10px 15px;
+    margin: 20px auto;
+    color: #2e2d29;
+    background-color: #d5d0c0;
+    border: 0 none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #c4bfa9;
+    opacity: 1;
+    font-size: 18px;
+}
+
+.button:active{
+
+    background-color: #c4bfa9;
+    border: 4px solid #d5d0c0;
+
+}
+
+.button:hover{
+
+    background-color: #f6f3e5;
+    border: 4px solid #d5d0c0;
+
+}
+
+.center {
+}
+
+.bottomright {
+    display: block;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.video {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+video.hst-video {
+    width:1065px;
+    height:600px;
+}
+
+.headsetChkVid {
+    width:100% !important;
+    height:auto !important;
+    margin-top:-34px;
+}
+
+.buttonForm {
+    height: 50px;
+}
+
+.grey {
+    opacity: .4;
+}
+.buttonRecorder {
+    display: block;
+    position: absolute;
+    right: 110px;
+    bottom: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    margin: 20px;
+    color: #2e2d29;
+    background-color: #d5d0c0;
+    border: 0 none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #c4bfa9;
+}
+
+.checkbox {
+    vertical-align: middle;
+    margin-right: 10px;
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    padding: 10px;
+}
+
+.errorAlert {
+    font-size: 18px;
+    color: #820000;
+}
+/*__________________________________________*/
+header {
+    display: block;
+    /* position: fixed; */
+    background: #8C1515;
+    width: 1366px;
+    height: 50px;
+    overflow: hidden;
+}
+
+header h1 {
+    background: #8C1515;
+    padding: 0 0 0 0;
+    float: left;
+}
+
+header nav {
+    background: #8C1515;
+    float: right;
+    padding: 9px 15px 0;
+    height: 40px;
+    font-size: 26px;
+    list-style: none;
+    margin: 0 0 0 0;
+    color: rgba(255,255,255,1);
+}
+
+.bucketHeader {
+    margin-top: 20px;
+}
+
+/*__________________________________________*/
+.banner {
+    display: block;
+    position: relative;
+    width: 1366px;
+    height: 280px;
+    background: #03C;
+    background-image: url(../img/homeBanner.jpg);
+}
+
+.banner h1 {
+    display: block;
+    position: absolute;
+    top: 30px;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    font-size: 32px;
+    font-weight: 400;
+    color: #3F3C30;
+    line-height: 38px;
+}
+
+.banner h1 a {
+    color: #3F3C30;
+    cursor: text !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+    width: 1366px;
+    min-height: 600px;
+}
+
+.content h1 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.content p {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.content p+ p {
+    margin-top: 20px;
+}
+
+.content .bucket {
+    min-height: 650px;
+}
+
+.contenthome {
+    display: block;
+    position: relative;
+    width: 1366px;
+    min-height: 320px;
+    vertical-align: middle;
+    /*background: #000;*/
+}
+
+.contenthome p {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.contenthome p+ p {
+    margin-top: 22px;
+}
+
+.contenthome .bucket {
+    min-height: 390px;
+}
+
+.contenthome input {
+    margin: 0;
+    padding: 0;
+    border: solid rgba(0,0,0,1) 1px;
+    height: 30px;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contenthome .keyboardSetup {
+    display: block;
+    position: absolute;
+    top:0px;
+    z-index:15;
+    width: 800px;
+    height: 100%;
+    padding-left: 300px;
+    padding-right:300px;
+    background-color: #f3efd8;
+}
+
+.contenthome .keyboardSetup div:last-of-type {
+    margin-bottom: 0;
+    line-height: 50px;
+}
+
+.contenthome .keyboardSetup div {
+    display: block;
+    position: relative;
+    /* right: 0; */
+    /* bottom: 110px; */
+}
+
+.contenthome .keyboardSetup div img {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 20px;
+}
+.contenthome .keyboardSetup div img.setHeight {
+    height:107px;
+}
+
+.contenthome .keyboardSetup div .button {
+    position: absolute;
+    margin: 40px auto;
+    right: -10px;
+}
+
+.contenthome   #homeKeyArrow {
+    width: 212px;
+    position: absolute;
+    right: 40px;
+    z-index: 999;
+    top: 38px;
+    opacity: 0.35;
+}
+
+.contenthome  #homeKeyArrow {
+    height: 100%;
+}
+
+.contentQuestion {
+    display: block;
+    position: relative;
+    /* width: 1366px; */
+    height: 600px;
+    transition: opacity 1s ease-in-out;
+}
+
+.contentQuestion p {
+    font-size: 22px;
+}
+
+.contentQuestion p+ p {
+    margin-top: 22px;
+}
+
+.contentQuestion p:last-child {
+    padding-bottom: 20px;
+}
+
+.contentQuestion .controler {
+    display: block;
+    position: relative;
+    background-color: #fbfbf9;
+    height: 600px;
+}
+
+.contentQuestion.essay {
+    height: 538px;
+}
+
+.contentQuestion .controler h1 {
+    font-size: 44px;
+    text-align: center;
+}
+.contentQuestion .controler img {
+    margin-left: 50px;
+}
+
+.contentQuestion .controler h2 {
+    font-weight: 400;
+    color: #585754;
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contentQuestion .controler h3 {
+    font-weight: 400;
+    color: #585754;
+    line-height: 1em;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.controler {
+    font-size: 18px;
+}
+
+.contentQuestion .answer {
+    background-color: #fbfbf9;
+}
+
+.contentQuestion form div {
+    margin-bottom: 10px;
+}
+
+.contentQuestion form[name='secretcodeForm'] > div:nth-of-type(1) {
+     width: 90%;
+}
+
+
+.contentQuestion form[name="secretcodeForm"] > div:nth-of-type(2) input{
+     margin-top: 10px;
+}
+
+
+.contentQuestion form div.checkText {
+    vertical-align: middle;
+    cursor: pointer;
+}
+.contentQuestion form[name="secretcodeForm"] div.checkText {
+    display: inline;
+}
+
+.contentQuestion form div.checkText:hover {
+    text-decoration: underline;
+}
+
+.contentQuestion form div.disableText:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.contentQuestion form .formCkBox {
+    float: left;
+}
+
+.contentQuestion form[name="secretcodeForm"] .formCkBox {
+    display: inline;
+    float: none;
+}
+
+.contentQuestion form .formCkBox input {
+    vertical-align: sub;
+}
+
+.essayControls {
+    position: relative;
+    border-top: 2px #e3dfd3 solid;
+    overflow: hidden;
+}
+
+.essayControls .button {
+    margin: 10px;
+    padding: 5px;
+}
+
+.essayFooter {
+    clear: both;
+}
+
+.recordingText {
+    margin-top: 320px;
+    font-size: 28px !important;
+    color: rgba(255,0,0,1) !important;
+    font-weight: bold !important;
+}
+
+#countDownRecordVal.timesUp, .recorderSecondsText  {
+    font-size: 30px !important;
+    height: 38px;
+}
+
+[scroll-shadow].shadowTop {
+    -webkit-box-shadow: inset 0px 3px 5px 0px rgba(69,69,69,.1);
+}
+
+[scroll-shadow].shadowBottom {
+    -webkit-box-shadow: inset 0px -344px 5px 0px rgba(69,69,69,.1);
+}
+
+[scroll-shadow].shadowBoth {
+    -webkit-box-shadow: inset 0px -3px 5px 0px rgba(69,69,69,.1), inset 0px 3px 5px 0px rgba(69,69,69,.1);
+}
+
+.listenText {
+    margin-top: 200px;
+}
+
+.thinkText {
+    margin-top: 170px;
+    max-height: 558px;
+}
+
+.speakText {
+    margin-top: 20px;
+}
+
+form[name ='keyBoardForm'] input {
+    font-size: 14px;
+}
+
+form[name ='keyBoardForm'] .keyboardPhrase {
+    background-color: #ededed;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+form[name ='keyBoardForm'] .keyboardPhrase h1 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.contentPretest {
+    display: block;
+    position: relative;
+    width: 1366px;
+    min-height: 690px;
+}
+
+.contentPretest .pretest h1 {
+    font-size: 44px;
+}
+
+.contentPretest .pretest p, .contentPretest .pretest span {
+    font-size: 24px;
+}
+
+.contentPretest .pretest form {
+    margin-top: 30px;
+}
+
+.contentFull {
+    display: block;
+    position: relative;
+    width: 1366px;
+    height: 490px;
+    text-align: center;
+    vertical-align: central;
+    padding-top: 200px;
+}
+.contentFull .bucket h1 {
+    font-size: 24px;
+    padding: 5px 200px 0 200px;
+}
+
+.contentFull p {
+    font-size: 18px;
+    padding: 5px 200px 0 200px;
+}
+
+.contentFull p+ p {
+    margin-top: 20px;
+}
+
+.contentFull .bucket {
+    max-height: 620px;
+}
+
+.speakerIcon {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
+
+.speakerOff {
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/speakerOff.png);
+}
+
+.speakerOn {
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/speaker.gif);
+}
+
+.speakerMeter {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.bucket {
+    overflow: auto;
+}
+
+.bucket:last-of-type {
+    overflow: hidden;
+}
+
+.qContent {
+    padding: 20px;
+}
+
+.qIllustration {
+    display: block;
+    float: right;
+    margin: 0 0 0 20px;
+    max-height: 500px;
+    max-width: 441px;
+}
+
+.stripe {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,255,255,.5);
+    padding: 20px 400px 20px 400px;
+    border: rgba(172,166,141,1) solid 1px;
+    border-left: none;
+    border-right: none;
+    width: 568px;
+}
+
+.inlineImportant {
+    font-weight: bold;
+}
+
+.essayform {
+    width: 100%;
+    height: inherit;
+    resize: none;
+    padding: 20px;
+    font: 22px 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fbfbf9;
+}
+
+.login {
+
+    display: block;
+    position: absolute;
+    right: 20px;
+    bottom: 110px;
+}
+
+/*___________________Player_______________________*/
+
+.recordingTextHeader {
+    font-weight: bold;
+    color: rgba(255,0,0,1);
+    font-size: 24px;
+    text-align: center;
+}
+
+.player {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+.micImg {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 140px;
+    height: 300px;
+    border: none;
+}
+
+.questionMic {
+    top: 90px;
+    left: 32px;
+}
+
+.recorderP {
+    text-align: center;
+}
+
+.micMeter {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 81px;
+}
+.micMeter2 {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 102px;
+}
+
+.recorderControls {
+    display: block;
+    position: relative;
+    height: 90px;
+}
+
+.recordBTN {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    color: #2e2d29;
+    background-color: #d22929;
+    border: 0 none;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 200px;
+}
+
+.stopBTN {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    width: 40px;
+    height: 40px;
+    color: #2e2d29;
+    background-color: #000000;
+    border: 0 none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 200px;
+}
+
+.playBTN {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    outline: 0;
+    border: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-left: 35px solid #31d44c;
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
+    overflow: hidden;
+    text-indent: 200px;
+}
+/*__________________________________________*/
+
+.blueBook {
+    background-image: url(../img/bluebook.png);
+    background-repeat: no-repeat;
+    width: 557px;
+    height: 650px;
+}
+
+.blueBook H1 {
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 45px;
+    width: 485px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255,255,255,1);
+    padding-top: 5px;
+}
+.blueBook H1:nth-of-type(2) {
+    top: 300px;
+    color: rgba(0,0,153,1);
+    font-size: 24px;
+}
+.blueBook H2 {
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 95px;
+    width: 485px;
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0,0,153,1);
+    padding-top: 5px;
+}
+.blueBook H2:nth-of-type(2) {
+    top: 135px;
+}
+
+.fullCenter {
+    width: 100%;
+    text-align: center;
+}
+
+/*__________________________________________*/
+.microphone {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    padding: 20px;
+    max-width: 127px;
+}
+
+.instructPane p {
+    padding-top: 215px;
+    text-align: center;
+}
+
+.controlPane {
+    text-align: center;
+}
+
+.controlPane h1 {
+    text-align: center;
+    color: #000;
+}
+
+.controlPane.step_1 h1, .controlPane.step_3 h1 {
+    padding-top: 250px;
+}
+
+.controlPane.step_2 h1 {
+    padding-top: 25px;
+}
+
+.controlPane.step_4 div button {
+    margin-bottom: 50px;
+}
+
+.controlPane.step_4 div:first-child button {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.controlPane.step_4 button:last-child {
+    margin-top: 50px;
+}
+
+.controlPane.step_4 h1 {
+    margin-bottom: 25px;
+}
+
+.controlPane.step_2 h1:last-of-type {
+    font-size: 1.9 rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #8c1515;
+}
+
+.pretestChecks {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 20px;
+}
+
+/*__________________________________________*/
+.timeline {
+    height: 30px;
+    background-color: #dfdace;
+}
+
+.timelineLeft {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 3;
+    padding-left: 20px;
+    padding-top: 3px;
+    float: left;
+}
+.timeStatus {
+    display: block;
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    height: 30px;
+    padding-left: 20px;
+    background-color: #9d9573;
+    opacity: 0.8;
+    transition: width .5s;
+}
+
+.timelineRight {
+    display: inline-block;
+    float: right;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+    background-color: #dfdace;
+}
+.timelineRightDevide {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: right;
+    height: 30px;
+    background-image: url(../img/timeDevider.png);
+    /*background-color:#c4bfa9;*/
+
+}
+
+/*__________________________________________*/
+footer {
+    display: block;
+    position: relative;
+    width: 1366px;
+    height: 40px;
+}
+
+footer h1 {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgba(255,255,255,1);
+    padding-left: 20px;
+    padding-top: 9px;
+}
+/*__________________________________________*/
+
+.red {
+    background-color: #8C1515;
+}
+.redDark {
+    background-color: #8C1515;
+}
+.redText {
+    color: #8C1515;
+}
+
+.abblack {
+    background-color: #000000;
+}
+.black {
+    background-color: #2e2d29;
+}
+.black80 {
+    background-color: #585754;
+}
+.blackText {
+    color: #2e2d29;
+}
+.black80Text {
+    color: #585754;
+}
+
+.gray {
+    background-color: #3f3c30;
+}
+.gray90 {
+    background-color: #565347;
+}
+.gray60 {
+    background-color: #8a887d;
+}
+
+.sandstone {
+    background-color: #ddcf99;
+}
+.sandstone50 {
+    background-color: #eee6cb;
+}
+.sandstone35 {
+    background-color: #f3efd8;
+}
+.sandstone25 {
+    background-color: #f6f3e5;
+}
+.sandstone20 {
+    background-color: #f8f6ea;
+}
+
+.Beige {
+    background-color: #9d9573;
+}
+.Beige85 {
+    background-color: #aca68d;
+}
+.Beige60 {
+    background-color: #c4bfa9;
+}
+.Beige40 {
+    background-color: #d5d0c0;
+}
+.Beige30 {
+    background-color: #e3dfd5;
+}
+.Beige20 {
+    background-color: #e9e6df;
+}
+.Beige10 {
+    background-color: #f2f1eb;
+}
+.Beige5 {
+    background-color: #fbfbf9;
+}
+
+.bgC {
+    background-color: #F5F3E9;
+}
+
+/*__________________________________________*/
+
+.colSpan1 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 130px;
+}
+
+.colSpan2 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 260px;
+}
+
+.colSpan3 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 390px;
+}
+
+.colSpan4 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 643px;
+    height: inherit;
+    /*width: 628px;*/
+}
+
+.colSpan4NoPad {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 683px;
+    height: inherit;
+    /*width: 628px;*/
+}
+
+.disableText {
+    opacity: .4;
+    cursor: default;
+    text-decoration: none;
+}
+
+.disableText:hover {
+    text-decoration: none;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+button:disabled:hover {
+    background-color: #d5d0c0;
+    border: 4px solid #c4bfa9;
+    cursor: default;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/********** headset check views */
+.headset > div{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 243, 233);
+}
+
+.headset .colSpan6nopad {
+    height: inherit;
+}
+
+.hStep1 {
+    overflow: hidden;
+}
+.hStep1 img {
+    width: inherit;
+}
+
+.hStep2 {
+    background-image: url("../img/headset_2_temp.png");
+}
+
+.hStep3 {
+    /* background-image: url("../img/micdown.gif"); */
+    /* background-position-x: 96%; */
+}
+
+.hStep4 {
+    background-image: url("../img/headsetControler.jpg");
+    background-size: cover;
+}
+
+.hStep5 {
+    background-image: url("../img/headsetCheckMute.gif");
+}
+
+.hStep6 {
+    background-image: url("../img/headsetMuted.gif");
+}
+
+.hStep7 {
+    background-image: url("../img/headsetChecked.jpg");
+}
+
+.headset button {
+    width: 180px;
+}
+
+.headset .instructContentBox {
+    position: absolute;
+    padding: 20px;
+    background-color: rgba(255,255,255,.9);
+    font-size: 24pt;
+    line-height: 37px;
+    font-family: 'Gill Sans', Arial;
+    color: rgb(86, 83, 71);
+    top: 5%;
+    width: 650px;
+}
+
+.headset .hStep2 .instructContentBox {
+    top: 20px;
+    margin-left: 20px;
+}
+
+.headset .hStep3 .instructContentBox {
+    width: 350px;
+    margin-left: 8%;
+}
+
+.headset .hStep4 .instructContentBox {
+    width: 310px;
+    margin-left: 470px;
+    top: 80px;
+
+}
+
+.headset .hStep5 .instructContentBox {
+    width: 700px;
+    margin-left: 190px;
+    top: 10px;
+    background-color: rgba(255,255,255,.92);
+}
+
+.headset .hStep6 .instructContentBox {
+    width: 700px;
+    margin-left: 190px;
+    top: 10px;
+    background-color: rgba(255,255,255,.92);
+}
+
+.headset .hStep7 .instructContentBox {
+    width: 700px;
+    margin-left: 190px;
+    top: 10px;
+    background-color: rgba(255,255,255,.92);
+}
+
+.contentQuestion .controler form[name="headsetForm"] h1 {
+    font-size: 28pt;
+    line-height: 37pt;
+    font-family: arial;
+}
+
+/********** Classes used with the resize-bar directive */
+.colSpan4NoPad.withResize {
+    /* set initial equal columns when page loaded. Number derived : (width of .contentQuestion class) - (resize bar width: 18px) / 2   */
+    width: 674px;
+    transition-property: width;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+.colSpan4NoPad.withResize.narrow {
+    width: 300px;	/* width of the question pane */
+}
+.colSpan4NoPad.withResize.narrow:last-of-type {
+    width: 1048px; /* Width of textarea pane. Number derived : (width of .contentQuestion class) - (width of resize bar - 18px) - (width of .narrow class above) */
+}
+.colSpan4NoPad.withResize.narrow .innerBucket {
+    width: 275px;	/* This should always be set to 25px less than width for .colSpan4NoPad.withResize.narrow */
+    padding-left: 10px;
+}
+.colSpan4NoPad.withResize .qContent p.smallerFont {
+    font-size: 1rem;
+}
+.colSpan4NoPad.withResize .qContent h1.smallerFont {
+    font-size: 1.2 rem;
+}
+
+/**********  End of resize-bar directive styles */
+
+/********** keyboard image ****************/
+.keyboardImg {
+    width:100%;
+    transition: width .5s;
+}
+
+.narrow .keyboardImg {
+    width:235px;
+    height: 76px;
+}
+.narrow .keyboardImg:hover{
+    width: 490px;
+    height: 172px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.colSpan5 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 650px;
+}
+
+.colSpan6 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 1025px
+        /*width: 780px;*/
+}
+
+.colSpan6nopad {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 1066px;
+}
+
+.colSpan7 {
+    display: inline-block;
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 910px;
+}
+
+.colSpan8 {
+    width: 1040px;
+}
+
+/*---------------------------------------------*/
+
+.replayButton {
+    position: absolute;
+    top: 200px;
+    left: 432px;
+
+    cursor: pointer;
+    z-index: 999;
+    width: 200px;
+    height: 200px;
+    border: none;
+}
+
+.overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background-color: rgba(204,204,204,0.6);
+}
+
+.confirmMicText {
+    padding-left: 35px;
+}
+
+.left {
+    float: left;
+}
+
+/*--start File Recovery Tool----*/
+
+.upload-buttons input[type="file"] {
+    width: 6.3em \0/IE9;
+    height: 1.5em;
+    margin: 5px;
+}
+
+.upload-buttons input[multiple] {
+    width: 6.2em \0/IE9;
+}
+
+.upload-button {
+    width: 170px;
+    Height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+    background: #CCC;
+    appearance: button;
+    -moz-appearance: button; /* Firefox */
+    -webkit-appearance: button; /* Safari and Chrome */
+}
+
+.sel-file {
+    padding: 1px 5px;
+    font-size: smaller;
+    color: grey;
+}
+
+.response {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.response > ul {
+    list-style-type: decimal;
+}
+
+.response li, .response .reqh {
+    color: blue;
+    font-size: smaller;
+    padding-bottom: 5px;
+}
+
+.progress {
+    display: inline-block;
+    width: 100px;
+    border: 3px groove #CCC;
+}
+
+.progress div {
+    font-size: smaller;
+    background: orange;
+    width: 0;
+}
+
+.drop-box {
+    background: #F8F8F8;
+    border: 5px dashed #DDD;
+    width: 200px;
+    height: 65px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.drop-box.dragover {
+    border: 5px dashed blue;
+}
+
+.drop-box.dragover-err {
+    border: 5px dashed red;
+}
+
+/* for IE*/
+.js-fileapi-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttonupload {
+    padding: 1px 5px;
+    font-size: smaller;
+    margin: 0 3px;
+}
+
+.ng-v {
+    float: right;
+}
+
+.sel-file img {
+    float: left;
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
+}
+
+.sub {
+    font-size: smaller;
+    color: #777;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.err {
+    font-size: 12px;
+    color: #C53F00;
+    margin: 15px;
+    padding: 15px;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+}
+
+.s3 {
+    font-size: smaller;
+    color: #333;
+    margin-left: 20px;
+}
+.s3 fieldset {
+    border: 1px solid #AAA;
+}
+.s3 label {
+    width: 180px;
+    display: inline-block;
+}
+.s3 input {
+    width: 300px;
+}
+.s3 .helper {
+    margin-left: 5px;
+}
+
+.howto {
+    margin-left: 10px;
+}
+
+/*--end File Recovery Tool----*/
+
+/*--styles for scroll shadow directive----*/
+[scroll-shadow] {
+    height: inherit;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+[scroll-shadow] .bucket {
+    height: inherit;
+}
+
+[scroll-shadow] .innerBucket {
+    padding: 20px;
+    /*padding-right: 35px;*/
+}
+
+[scroll-shadow].shadowTop {
+    box-shadow: inset 0px 6px 6px 0px rgba(69,69,69,.2);
+}
+
+[scroll-shadow].shadowBottom {
+    box-shadow: inset 0px -6px 6px 0px rgba(69,69,69,.1);
+}
+
+[scroll-shadow].shadowBoth {
+    box-shadow: inset 0px -6px 6px 0px rgba(69,69,69,.1), inset 0px 6px 6px 0px rgba(69,69,69,.2);
+}
+
+[scroll-shadow].essayform {
+    padding: 20px;
+}
+
+/*--styles for resize bar directive----*/
+.resize-bar {
+    width: 16px;
+    height: inherit;
+    background-color: #f5f3e9;
+    float: left;
+    border-left: #ebeae4 1px solid;
+    border-right: #ebeae4 1px solid;
+    color: #d2c295;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.resize-bar:hover {
+    background-color: rgb(213, 208, 192);
+    cursor: pointer;
+}
+
+.resize-bar-icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 25pt;
+    font-family: arial;
+    color: #d2c295;
+}
+
+/* For enabling/disabling buttons */
+.buttonOn {
+    opacity: 1;
+
+}
+.buttonOff {
+    opacity: 0.4;
+}
+
+#showBackDoor {
+    /* cursor: inherit !important; */
+}
+
+
+.errorText{
+    color:#FF0000 ;
+}
+
+.ruler{
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 100%;
+    height: 1;
+    border-bottom: solid 1px #9d9474;
+}
+
+.offset50v{
+    margin-top:-50px;
+
+}
+
+.key_US{
+    min-height: 600px;
+    background-image: url("../img/keyboard_US.jpg");
+    background-size: cover;
+}
+
+.key_Korean{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Korean.jpg");
+    background-size: cover;
+
+}
+
+
+.key_Japanese{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Japanese.jpg");
+    background-size: cover;
+
+}
+
+.key_Russian{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Russian.jpg");
+    background-size: cover;
+
+}
+
+.key_Spanish{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Spanish.jpg");
+    background-size: cover;
+
+}
+
+.key_German{
+    min-height: 600px;
+    background-image: url("../img/keyboard_German.jpg");
+    background-size: cover;
+
+}
+
+.key_Portuguese{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Portuguese.jpg");
+    background-size: cover;
+
+}
+
+
+.key_French{
+    min-height: 600px;
+    background-image: url("../img/keyboard_French.jpg");
+    background-size: cover;
+
+}
+
+.key_Italian{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Italian.jpg");
+    background-size: cover;
+
+}
+
+.key_Chinese{
+    min-height: 600px;
+    background-image: url("../img/keyboard_Chinese.jpg");
+    background-size: cover;
+}
+
+/* Audio progress bar styling */
+/* parent div should have position:relative and text-align: center */
+
+.media-progress {
+    position: absolute;
+    bottom: 10px;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 7px;
+    border:#000 solid 1px;
+    /*opacity: 0;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;*/
+}
+
+.media-progress .progress-play, .media-progress .progress-pause {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border: none;
+}
+
+.media-progress .progress-play:focus, .media-progress .progress-pause:focus {
+    outline: none;
+}
+
+.media-progress .off {
+    opacity: .5;
+}
+
+.media-progress .on {
+    opacity: 1;
+}
+
+.media-progress #progress-bar {
+    margin-bottom: -2px;
+    vertical-align: middle;
+}
+
+/* progress bar track and roller styling */
+.media-progress input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+
+    /*fix for FF unable to apply focus style bug */
+    border: 1px solid white;
+
+    /*required for proper track sizing in FF*/
+    width: 300px;
+}
+.media-progress input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 2px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+}
+.media-progress input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: -8px;
+}
+.media-progress input[type=range]:focus {
+    outline: none;
+}
+.media-progress input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.media-progress input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 2px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+.media-progress input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: -8px;
+}
+
+/*hide the outline behind the border*/
+.media-progress input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+.media-progress input[type=range]::-ms-track {
+    width: 300px;
+    height: 2px;
+
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-color: transparent;
+    border-width: 6px 0;
+
+    /*remove default tick marks*/
+    color: transparent;
+}
+.media-progress input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+}
+.media-progress input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+}
+.media-progress input[type=range]::-ms-thumb {
+    border: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: -8px;
+}
+.media-progress input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+}
+.media-progress input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+}
+
+// ************************* Classes for sliding and fading views
+
+.view { 
+    text-align:center;
+    width: 1366px; 
+}
+
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%) }
+}
+
+@-webkit-keyframes slideOutLeft {
+    to      { transform: translateX(-100%) }
+}
+
+@keyframes slideInRight {
+    from    { transform: translateX(100%) }
+    to      { transform: translateX(0) }
+}
+
+@-webkit-keyframes slideInRight {
+    from    { transform: translateX(100%) }
+    to      { transform: translateX(0) }
+}
+
+/* ******************** reverse slide for clicking the back button */
+@keyframes slideOutRight{
+    to      { transform: translateX(100%); height:20px }
+}
+
+@-webkit-keyframes slideOutRight {
+    to      { transform: translateX(100%); height:20px }
+}
+
+@keyframes slideInLeft {
+    from    { transform: translateX(-100%) }
+    to      { transform: translateX(0) }
+}
+
+@-webkit-keyframes slideInLeft {
+    from    { transform: translateX(-100%) }
+    to      { transform: translateX(0) }
+}
+
+.view.ng-enter  { 
+    animation: slideInRight .5s both linear; 
+    -webkit-animation: slideInRight .5s both linear;
+    z-index: 8888; 
+    position: absolute;
+}
+
+.view.ng-leave { 
+    animation: slideOutLeft .5s both linear;
+    -webkit-animation: slideOutLeft .5s both linear; 
+    z-index: 9999; 
+    position: absolute;
+}
+
+/* Class to add for pages that should not slide in or out */
+.view.ng-enter.slideOff  {
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+.view.ng-enter.slideReverse {
+    animation: slideOutRight .5s both linear; 
+    -webkit-animation: slideInLeft .5s both linear;
+    z-index: 8888; 
+    position: absolute;
+}
+
+.view.ng-leave.slideReverse {
+    animation: slideOutRight .5s both linear; 
+    -webkit-animation: slideOutRight .5s both linear;
+    z-index: 8888; 
+    position: absolute;
+}
